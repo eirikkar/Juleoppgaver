@@ -15,7 +15,8 @@ public class TestArrayAndListMethods : AssignmentBase
 
     public int[] IntSum(int a, int b)
     {
-        throw new NotImplementedException();
+        int[] numberList = new int[a + b];
+        return numberList;
     }
 
     public List<string> LoopList(List<string> element)
